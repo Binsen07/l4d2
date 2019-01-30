@@ -3,6 +3,55 @@
 
 "Phrases"
 {
+	"bonus container locked"
+	{
+		"#format"			"{1:s},{2:s}"
+		"es"				"{1}Tu contenedor de bonus {2}está ahora bloqueado."
+	}
+	"player no longer eligible"
+	{
+		"#format"			"{1:s},{2:s},{3:s}"
+		"es"				"{1}{2} {3}ha sido removido del servidor por tener menos del rating requerido."
+	}
+	"loading data cannot open menu"
+	{
+		"#format"			"{1:s}"
+		"es"				"{1}El menú no está disponible mientras tus datos están cargándose."
+	}
+	"Cancel Load Request"
+	{
+		"#format"			"{1:s}"
+		"es"				"Ver petición de autorización al perfil de {1}"
+	}
+	"none"
+	{
+		"es"				"RPG INHABILITADO"
+	}
+	"view class abilities"
+	{
+		"es"				"Ver Modificadores de Talentos y habilidades de la clase"
+	}
+	"view class experience"
+	{
+		"es"				"Ver modificadores de la Experiencia del CARTEL " 
+	}
+	"select survivor bot"
+	{
+		"es"				"Seleccionar un Bot sobreviviente de la lista\npara que tú carges tu perfil en él\n\nAl presionar la tecla 'ATRÁS' se reinicia el objetivo a TÚ"
+	}
+	"vanilla"
+	{
+		"es"				"Vainilla"
+	}
+	"Select Load Target"
+	{
+		"#format"			"{1:s}"
+		"es"				"Cargar perfil a: {1}"
+	}
+	"Yourself"
+	{
+		"es"				"A ti mismo"
+	}
 	"playing in server name"
 	{
 		"#format"			"{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:s}"
@@ -25,12 +74,12 @@
 	"loading class profile"
 	{
 		"#format"			"{1:s},{2:s},{3:s}"
-		"es"				"{1}Espera mientras carga el perfil para ... {2}{3}"
+		"es"				"{1}Espera mientras se carga el perfil para ... {2}{3}"
 	}
 	"class profile loaded"
 	{
 		"#format"			"{1:s},{2:s},{3:s}"
-		"es"				"{1}carga los datos de la clase con éxito para {2}{3}"
+		"es"				"{1}Ha sido cargado exitosamente el perfil para {2}{3}"
 	}
 	"rejoining too fast"
 	{
@@ -52,15 +101,15 @@
 	}
 	"View My Ranking"
 	{
-		"es"				"Ver mi ranking"
+		"es"				"Ver mi posición"
 	}
 	"the leaderboards"
 	{
-		"es"				"Tablas de clasificación \nVer el tuyo y los mejores jugadores"
+		"es"				"Tablas de clasificación \nVer tu posición y los mejores jugadores"
 	}
 	"respec"
 	{
-		"es"				"Memory Wipe \nRefunda todos sus talentos (no atributos de clase)"
+		"es"				"Memory Wipe \nReembolsa todos sus talentos (no los atributos de clase)"
 	}
 	"collected bonus container"
 	{
@@ -70,22 +119,22 @@
 	"raid lock penalty warning"
 	{
 		"#format"			"{1:s},{2:s}"
-		"es"				"{1}Ahora estás bloqueado para la ronda.\n{2}Salir antes de que termine la ronda perderá la experiencia ganada en esta ronda."
+		"es"				"{1}Ahora estás bloqueado para la ronda.\n{2}Salir antes de que termine la ronda causará la pérdida de la experiencia ganada en esta ronda."
 	}
 	"raid lock penalty enacted"
 	{
 		"#format"			"{1:s},{2:s},{3:s},{4:s}"
-		"es"				"{1}{2} {3}se fue durante una ronda en vivo.\n{4}Su progreso en esta ronda no se guardó, y el nivel de raid (o solo) se restableció."
+		"es"				"{1}{2} {3}se fue durante una ronda en vivo.\n{4}Su progreso en esta ronda no se guardó, y el nivel de la incursión (o solo) se restableció."
 	}
 	"bonus container burst"
 	{
 		"#format"			"{1:s},{2:s},{3:s},{4:s},{5:i},{6:s}"
-		"es"				"{1}{2}s {3}contenedor se disuelve ... {4}{5} experiencia {6}perdido en un abrir y cerrar de ojos..."
+		"es"				"{1}{2}s {3}contenedor se disuelve ... {4}{5} de experiencia {6}perdida en un abrir y cerrar de ojos..."
 	}
 	"bonus experience waiting"
 	{
 		"#format"			"{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:s},{8:s},{9:s},{10:3.2f},{11:s}"
-		"es"				"{1}Tienes {2}{3} experiencia {4}disponible.\nTipo {5}!collect {6} a {7}recibe el bono ahora {8}y restablece el multiplicador.\nMúltiplo actual: {9} {10}{11}"
+		"es"				"{1}Tienes {2}{3} experiencia {4}disponible.\nEscribe {5}!collect {6} para {7}recibir el bono ahora {8}y restablecer el multiplicador.\nMúltiplo actual: {9} {10}{11}"
 	}
 	"teammate bonus experience"
 	{
@@ -95,12 +144,12 @@
 	"teammate has died"
 	{
 		"#format"			"{1:s},{2:s},{3:s},{4:s},{5:3.2f},{6:s}"
-		"es"				"{1}{2} {3} ha muerto; Los monstruos se debilitan...\nResultador de la experiencia del equipo: {4}{5}{6}"
+		"es"				"{1}{2} {3} ha muerto; Los monstruos se debilitan...\nMultiplicador de la experiencia del equipo: {4}{5}{6}"
 	}
 	"you are doomed"
 	{
 		"#format"			"{1:s}"
-		"es"				"{1}El hechizo Doom ha sido lanzado sobre ti."
+		"es"				"{1}El hechizo Condena ha sido lanzado sobre ti."
 	}
 	"survivors are doomed"
 	{
@@ -120,6 +169,81 @@
 	{
 		"#format"			"{1:s},{2:s},{3:s},{4:s},{5:3.2f},{6:s},{7:s},{8:s}"
 		"es"				"{1}{2} {3}ha regalado {4}{5} {6}punto(s) a {7}{8}"
+	}
+	"combat handicap restricted"
+	{
+		"#format"			"{1:s},{2:s},{3:i}"
+		"es"				"{1}Estás bloqueado en el {2}Nivel de Handicap N°.{3}"
+	}
+	"Overdrive damage"
+	{
+		"en"				"Overdrive Damage"
+	}
+	"Overdrive damage info"
+	{
+		"en"				"Increases all outgoing damage during Overdrive\nbased on the number of overdrive stacks."
+	}
+	"Overdrive leech"
+	{
+		"en"				"Overdrive Leech"
+	}
+	"Overdrive leech info"
+	{
+		"en"				"You heal for some of the outgoing damage\nmultiplicative based on the stack count."
+	}
+	"Overdrive absorb"
+	{
+		"en"				"Overdrive Damage Shield"
+	}
+	"Overdrive absorb info"
+	{
+		"en"				"Absorb a portion of incoming damage\nPlease note this occurs after handicap/raid damage increases."
+	}
+	"Overdrive reflect"
+	{
+		"en"				"Overdrive Reflect"
+	}
+	"Overdrive reflect info"
+	{
+		"en"				"Reflects damage back - based on overdrive stacks."
+	}
+	
+	"Cleanse damage"
+	{
+		"en"				"Cleanse Damage"
+	}
+	"Cleanse damage info"
+	{
+		"en"				"Increases all outgoing damage based on\nyour cleanse stacks."
+	}
+	"Cleanse leech"
+	{
+		"en"				"Cleanse Leech"
+	}
+	"Cleanse leech info"
+	{
+		"en"				"You heal for some outgoing damage based on\nyour cleanse count."
+	}
+	"Cleanse absorb"
+	{
+		"en"				"Cleanse Damage Shield"
+	}
+	"Cleanse absorb info"
+	{
+		"en"				"Absorb a portion of incoming damage based on cleanse stacks."
+	}
+	"Cleanse reflect"
+	{
+		"en"				"Cleanse Reflect"
+	}
+	"Cleanse reflect info"
+	{
+		"en"				"Reflects damage back - based on cleanse stacks."
+	}
+	"building stack change"
+	{
+		"#format"			"{1:s},{2:s},{3:s},{4:s},{5:s},{6:3.3f},{7:s}"
+		"en"				"{1}Now generating {2}{3} {4}for {5}{6} {7}second(s)."
 	}
 	"chainsaw damage increase"
 	{
@@ -143,7 +267,7 @@
 	}
 	"blunt damage increase info"
 	{
-		"es"				"Blunt Melee Las armas infligen más daño."
+		"es"				"Las armas de cuerpo a cuerpo contundentes inflingen más daño."
 	}
 	"sharp damage increase"
 	{
@@ -151,7 +275,7 @@
 	}
 	"sharp damage increase info"
 	{
-		"es"				"Las armas de ataque cuerpo a cuerpo infligen más daño."
+		"es"				"Las armas de cuerpo a cuerpo afiladas infligen más daño."
 	}
 	"special ammo target selected"
 	{
